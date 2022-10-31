@@ -1,0 +1,13 @@
+.replace
+
+Este comando serve para trocar um caracter por outro, muito utilizado para pegar valores com casa decimal.
+
+SINTAXE:
+
+.replace(",",".")
+
+Explicação: Nas primeiras aspas é colocado qual o caracter que voce deseja trocar quando for digitado, já nas segundas aspas o que vai ser colocado no lugar do outro caracter que não é desejado 
+
+
+
+
