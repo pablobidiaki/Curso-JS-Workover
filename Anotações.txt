@@ -8,6 +8,75 @@ SINTAXE:
 
 Explicação: Nas primeiras aspas é colocado qual o caracter que voce deseja trocar quando for digitado, já nas segundas aspas o que vai ser colocado no lugar do outro caracter que não é desejado 
 
+Exemplo disponivel "Aula004-ProjetoGasolina"
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Metodo math
+
+o metodo math é um biblioteca ja embutida no javascript que ajuda em calculos matematicos. 
+
+SINTAXE:
+Math.floor(1.45)
+
+o math.floor serve para arredondar o numero para baixo, nesse caso o resultado seria "1"
+
+SINTAXE:
+Math.floor(Math.random() * 10)
+
+math.random gera um numero aleatorio entre 0 e 1, colocando a função para ser multiplicada por algum numero faz com que o numero sorteado esteja entre 0 e o numero colocado, no exemplo acima seria de 0 até 10.
+
+Exemplo disponivel = "Aula005-JogoDado"
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+setTimeout
+
+executa uma função depois de um tempo determinado
+
+SINTAXE:
+setTimeout("função",tempo)
+
+Exemplo disponivel = "Aula007-Lampada"
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Evento onLoad()
+
+O evento onLoad faz com que quando o navegador for aberto ele execute essa função 
+
+SINTAXE
+<body onLoad(função1)>
+
+Exemplo disponivel = "Aula008-CarroselSimples"
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Como colocar som com Javascript
+
+Primeiro deve se criar uma variavel e fazer que seu valor seja o audio do documento HTML, após colocar o arquivo com o som desejado e efetuar o som 
+
+SINTAXE:
+
+var Som = new Audio()                                      cria uma variavel e da o caminho para colocar o audio em uma variavel
+Som.src = "arqAudio.mp3"                                   colocar um arquivo com som dentro da variavel
+Som.play()                                                 efetua o som 
 
 
 
+
+setInterval
+
+Efetua uma função com um tempo determinado mas é possivel manipular a sua parada com o codigo clearInterval
+
+SINTAXE:
+
+var função1 = setInterval(function(){função_que_sera_efetuada()},tempo)
+clearInterval(função1)
+
+Exemplo disponivel = "Aula009-Contagem"
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
