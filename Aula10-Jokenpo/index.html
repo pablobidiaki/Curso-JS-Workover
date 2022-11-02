@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpo</title>
+</head>
+<body>
+    <h1>Jokenpo</h1>
+    <h2>Jogador: </h2>
+    <img src="pedra.png" alt="">
+    <img src="papel.png" alt="">
+    <img src="tesoura.png" alt="">
+    <form name="frmppt">
+        <input type="radio" name="opcao" id="pedra">Pedra
+        <input type="radio" name="opcao" id="papel">Papel
+        <input type="radio" name="opcao" id="tesoura">Tesoura
+        <input type="button" value="Jogar" onclick="jogar()">
+        <input type="reset" value="Resetar" onclick="resetar()">
+        <hr>
+        <h2>Computador:</h2>
+        <img src="pc.png" alt="" id="pc">
+        <hr>
+        <h3 id="res"></h3>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
